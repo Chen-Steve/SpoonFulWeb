@@ -10,7 +10,7 @@ export default async function Home() {
     <div>
       <h1 className='text-4xl'>Home</h1>
       <Link className={buttonVariants()} href='/admin'>
-        Open My Admin
+        Open My Home
       </Link>
 
       <h2>Client Session</h2>
