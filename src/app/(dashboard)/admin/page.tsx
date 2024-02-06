@@ -7,7 +7,7 @@ const page = async () => {
     if (session?.user) {
         return (
             <h2 className='text-2xl'> 
-            Home Page - Welcome Back {session?.user.username}!
+            Home Page - Welcome Back {session?.user.username || session.user.name}!
             </h2>
         );
     }
