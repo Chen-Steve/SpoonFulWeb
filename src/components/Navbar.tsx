@@ -6,6 +6,36 @@ import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
 import UserAccountNav from './UserAccountNav';
 
+const styles = {
+  navbar: {
+    height: '80px',
+    backgroundColor: 'white',
+    borderBottom: '1px solid #ececec',
+    position: 'fixed',
+    width: '100%',
+    zIndex: '10',
+    top: '0',
+  },
+  logoContainer: {
+    zIndex: 1,
+    height: '80%',
+  },
+  logo: {
+    margin: '0px -50px', 
+    maxHeight: '100%', 
+    maxWidth: '100%',
+    height: '150px',
+    width: '256px',
+  },
+  container: {
+    height: '100%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-start', 
+    gap: '1rem',
+  },
+};
+
 const Navbar = async () => {
   const session = await getServerSession(authOptions);
   return (
