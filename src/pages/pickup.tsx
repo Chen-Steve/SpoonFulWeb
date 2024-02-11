@@ -1,4 +1,3 @@
-// PickUp.tsx
 import React, { useState, useRef } from 'react';
 import { Camera } from 'lucide-react';
 import styles from '@/styles/PickUp.module.css';
@@ -30,16 +29,28 @@ const PickUp = () => {
     setAnswers(prev => ({ ...prev, [question]: event.target.value }));
   };
 
-  const handleSubmit = () => {
-    // Example submit logic
-    console.log('Submitting...');
-
+  const handleSubmission = async () => {
+    if (!image) {
+      alert("Please upload an image before submitting.");
+      return;
+    }
+  
+    console.log('Simulating image submission...');
+  
+    // Simulate an async operation, e.g., uploading an image
+    await new Promise(resolve => setTimeout(resolve, 2000)); // Wait for 2 seconds
+  
+    console.log('Image submission simulated successfully.');
+  
+    // Trigger confetti on successful "upload"
     confetti({
       particleCount: 150,
       spread: 180,
-      origin: { y: 0.6 }, // Adjust origin for a different effect
-      colors: ['#bb0000', '#ffffff'], // Customize colors to match your style
+      origin: { y: 0.6 },
     });
+  
+    // Reset or update the state as needed after submission
+    setImage(null); // Clear the image preview
   };
 
   return (
@@ -94,7 +105,12 @@ const PickUp = () => {
         <div className={styles.thankYouMessage}>
           <p>Thank you.</p>
         </div>
-        <button className={styles.submitButton} onClick={handleSubmit}>Submit</button>
+        <button 
+          className={`${styles.submitButton} ${image ? '' : styles.disabledButton}`}
+          onClick={handleSubmission}
+          disabled={!image}>
+          Submit
+        </button>
 
       </div>
     </div>
