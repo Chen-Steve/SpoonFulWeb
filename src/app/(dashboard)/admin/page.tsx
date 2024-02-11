@@ -15,7 +15,7 @@ const Page = async () => {
             <div className="flex flex-col items-center justify-center min-h-screen">
                 {session?.user ? (
                     <div className="absolute top-20 z-20">
-                        <h2 className='text-4xl' style={{ color: 'var(--text-color-custom)' }}>
+                        <h2 className='text-4xl font-bold' style={{ color: 'var(--text-color-custom)' }}>
                             Welcome Back {session.user.username || session.user.name}!
                         </h2>
                     </div>
@@ -29,7 +29,9 @@ const Page = async () => {
                 </div>
 
                 <div className="absolute top-30 right-20 flex flex-col items-end z-20 space-y-10">
-                    <button className="bg-primary text-white text-2xl px-3 py-2 rounded">Pickup request</button>
+                    <Link href="/pickup">
+                    <button className="bg-primary hover:bg-primary-dark text-white text-2xl px-3 py-2 rounded">Pickup request</button>
+                    </Link>
                     <button className="bg-primary text-white text-2xl px-3 py-2 rounded">Personal data</button>
                     <button className="bg-primary text-white text-2xl px-3 py-2 rounded">Personal insights</button>
                     <button className="bg-primary text-white text-2xl px-3 py-2 rounded">Awesome links</button>

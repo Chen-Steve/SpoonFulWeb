@@ -10,7 +10,7 @@ const GoogleSignInButton: FC<GoogleSignInButtonProps> = ({ children }) => {
   const loginWithGoogle = async () => {
     try {
       setIsLoading(true);
-      await signIn('google', { callbackUrl: 'http://localhost:3000/admin'});
+      await signIn('google', { callbackUrl: 'http://spoonfulweb.vercel.app/admin'});
     } catch (err) {
       setIsLoading(false);
     } finally {

@@ -1,0 +1,154 @@
+.boardMembers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+  }
+  
+  .boardIntro {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .introText {
+    max-width: 600px;
+  }
+  
+  .introTitle {
+    font-size: 24px;
+    color: #222; 
+    margin-bottom: 15px;
+  }
+  
+  .introHeading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  .introDescription {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .membersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+  }
+  
+  .memberCard {
+    width: 300px;
+    border: 5px solid #c4c5d3;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .memberCard:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .memberImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .memberInfo {
+    padding: 15px;
+    background-color: #c4c5d3;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .memberName {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222; 
+  }
+  
+  .memberTitle {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .memberDescription {
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+    background-color: #c4c5d3;
+    flex-grow: 1;
+  }
+  
+  .socialIcons {
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #c4c5d3;
+    margin-top: auto;
+  }
+  
+  .socialIcon {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+  
+  .socialIcons a {
+    display: inline-block;
+  }
+  
+  .socialIcon:hover,
+  .socialIcon:focus {
+    opacity: 0.8;
+  }
+  
+  .cutBottomImage {
+    overflow: hidden;
+    height: auto;
+  }
+  
+  .memberImageWrapper {
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 170px; 
+    height: 170px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 25px auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #945d45; 
+  }
+  
+  @media (max-width: 1024px) {
+    .introTitle,
+    .memberName {
+      font-size: 1.5rem;
+    }
+  
+    .introHeading {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .memberCard {
+      width: 100%; 
+    }
+  
+    .membersContainer {
+      gap: 10px;
+    }
+  
+    .introDescription,
+    .memberDescription {
+      font-size: 1rem; 
+    }
+  }  
