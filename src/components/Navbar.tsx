@@ -13,7 +13,7 @@ const Navbar = async () => {
           <span className="text-2xl font-bold">Spoonful.</span>
         </Link>
         <div className='flex-grow space-x-4 flex justify-end mr-4'>
-          <Link className={buttonVariants()} href='/'>
+          <Link className={buttonVariants()} href='/About'>
             About
           </Link>
           <Link className={buttonVariants()} href='/TeamPage'>
