@@ -37,3 +37,13 @@ Upon launching the Spoonful app, users can:
 - Comprehensive analytics dashboard for financial insights.
 - Reward system to encourage continuous user engagement.
 
+
+## Screenshots
+
+Here are some glimpses of what Spoonful offers:
+
+![Spoonful Dashboard](https://github.com/Chen-Steve/SpoonFulWeb/raw/main/assets/dashboard.png)
+![Donation Process](https://github.com/Chen-Steve/SpoonFulWeb/raw/main/assets/donation_process.png)
+![Analytics Dashboard](https://github.com/Chen-Steve/SpoonFulWeb/raw/main/assets/analytics_dashboard.png)
+
+
