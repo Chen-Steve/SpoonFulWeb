@@ -16,3 +16,18 @@ Spoonful is a service and mobile app designed to bridge the gap between househol
 - **Earn rewards** for philanthropic actions, encouraging a culture of giving.
 
 Our ultimate goal is to improve food management practices, enabling users to save money while contributing to a noble cause. Future plans include launching a reimbursement program to further incentivize donations.
+
+## Getting Started
+
+This project is built with [Next.js](https://nextjs.org/) and deployed on Vercel, with a Supabase-hosted database. Follow these steps to set up the project locally:
+
+### Prerequisites
+
+- Node.js (v12.0 or higher)
+- A Supabase account and project for database management
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Chen-Steve/SpoonFulWeb.git
