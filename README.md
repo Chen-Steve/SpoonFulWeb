@@ -19,16 +19,17 @@ Our ultimate goal is to improve food management practices, enabling users to sav
 
 ### 4. Usage and Features
 This project is built with [Next.js](https://nextjs.org/) and deployed on Vercel, with a free-tier Supabase-hosted Postgresql database (db will shut off due to inactivity but can be activated again). 
+It is still currently under development.
 
 ```markdown
 ## Usage
 
 Upon launching the Spoonful app, users can:
 
-1. **Register/Log in** with their credentials.
-2. Navigate to the **Donate** section to list items for donation.
-3. Use the **Analytics** tab to view personalized spending and saving insights.
-4. Check the **Rewards** section to see available incentives for donations.
+1. Register/Log in with their credentials.
+2. Navigate to the Donate section to list items for donation.
+3. Use the Analytics tab to view personalized spending and saving insights.
+4. Check the Rewards section to see available incentives for donations.
 
 ### Features
 
@@ -37,13 +38,13 @@ Upon launching the Spoonful app, users can:
 - Comprehensive analytics dashboard for financial insights.
 - Reward system to encourage continuous user engagement.
 ```
-## Screenshots
+## Screenshots and future plans
 
-Here are some glimpses of what Spoonful offers:
+![unnamed](https://github.com/Chen-Steve/SpoonFulWeb/assets/116604107/9c35ff09-7681-46e3-8ce5-60aaddb34e02)
 
-![Spoonful Dashboard](https://github.com/Chen-Steve/SpoonFulWeb/raw/main/assets/dashboard.png)
-![Donation Process](https://github.com/Chen-Steve/SpoonFulWeb/raw/main/assets/donation_process.png)
-![Analytics Dashboard](https://github.com/Chen-Steve/SpoonFulWeb/raw/main/assets/analytics_dashboard.png)
+![unnamed (1)](https://github.com/Chen-Steve/SpoonFulWeb/assets/116604107/fd41b687-b62e-4476-8801-e443057d602b)
+
+![unnamed](https://github.com/Chen-Steve/SpoonFulWeb/assets/116604107/cfa33735-abb7-4203-8492-c5ea83f9a65d)
 
 ## License
 
