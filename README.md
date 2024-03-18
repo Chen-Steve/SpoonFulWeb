@@ -17,17 +17,23 @@ Spoonful is a service and mobile app designed to bridge the gap between househol
 
 Our ultimate goal is to improve food management practices, enabling users to save money while contributing to a noble cause. Future plans include launching a reimbursement program to further incentivize donations.
 
-## Getting Started
+### 4. Usage and Features
+This project is built with [Next.js](https://nextjs.org/) and deployed on Vercel, with a free-tier Supabase-hosted Postgresql database (db will shut off due to inactivity but can be activated again). 
 
-This project is built with [Next.js](https://nextjs.org/) and deployed on Vercel, with a Supabase-hosted database. Follow these steps to set up the project locally:
+```markdown
+## Usage
 
-### Prerequisites
+Upon launching the Spoonful app, users can:
 
-- Node.js (v12.0 or higher)
-- A Supabase account and project for database management
+1. **Register/Log in** with their credentials.
+2. Navigate to the **Donate** section to list items for donation.
+3. Use the **Analytics** tab to view personalized spending and saving insights.
+4. Check the **Rewards** section to see available incentives for donations.
 
-### Installation
+### Features
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Chen-Steve/SpoonFulWeb.git
+- Intuitive UI/UX for easy navigation and interaction.
+- Secure and fast food item listing and donation process.
+- Comprehensive analytics dashboard for financial insights.
+- Reward system to encourage continuous user engagement.
+
